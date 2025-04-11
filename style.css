@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.header {
+    background-color: #f39c12;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+table {
+    margin-top: 20px;
+    width: 100%;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+.table th {
+    background-color: #f1c40f;
+}
+
+.action-btns {
+    display: flex;
+    justify-content: center;
+}
+
+.action-btns a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.action-btns .update-btn {
+    background-color: #3498db;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.action-btns .delete-btn {
+    background-color: #e74c3c;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.action-btns .update-btn:hover {
+    background-color: #2980b9;
+}
+
+.action-btns .delete-btn:hover {
+    background-color: #c0392b;
+}
+
+.btn-container {
+    margin: 20px 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.btn-container a {
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-container a:hover {
+    background-color: #27ae60;
+}
+
+/* Cat-Themed User Overview Section */
+.user-counts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.user-count-box {
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: white;
+}
+
+.user-count-box h4 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.user-count-box p {
+    font-size: 1.2rem;
+}
+
+/* Cat-Themed Colors for Each Category */
+.total-users {
+    background-color: #FF6347; /* Cat orange color */
+}
+
+.total-visitors {
+    background-color: #FFA07A; /* Light orange */
+}
+
+.total-librarians {
+    background-color: #FF7F50; /* Coral orange */
+}
+
+/* New Cat-Themed Colors for Total Books and Total Genres */
+.total-books {
+    background-color: #FF4500; /* Orange-red for books */
+}
+
+.total-genres {
+    background-color: #FF8C00; /* Dark orange for genres */
+}
