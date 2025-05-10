@@ -17,7 +17,7 @@
 
         <div class="btn-container">
             <a href="register.php">Add New User</a>
-            <a href="logout.php">Logout</a>
+            <a href="index.php">Logout</a>
         </div>
 
         <!-- Cat-Themed User Counts Section in Boxes with Different Shades -->

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="book_search.css">
     <title>Library Management System</title>
 </head>
 <body>
@@ -15,13 +15,13 @@
     </header>
 
     <main class="aaa">
-        <!-- Main content split into two sections -->
+
         <div class="content-container">
-            <!-- Left side: Welcome section -->
+
             <div class="welcome-section">
                 <h2>Welcome to the Library System</h2>
                 <p>Search for books by Author, Genre, etc.</p>
-                <!-- Search Form -->
+
                 <form action="#" method="GET">
                     <div>
                         <label for="author">Author:</label>
@@ -38,18 +38,20 @@
                         <input type="text" id="title" name="title" placeholder="Enter book title">
                     </div>
 
-                    <!-- Search Button -->
+
                     <button type="submit" class="search-btn">Search</button>
                 </form>
             </div>
 
-            <!-- Right side: Navigation links (Login, About Us, Contact Us) -->
+ 
             <div class="nav-section">
                 <nav>
                     <ul>
                         <li><a href="#">Login</a></li>
                         <li><a href="#">About Us</a></li>
+                         <li><a href="register.php">Register</a></li>
                         <li><a href="#">Contact Us</a></li>
+                        <li><a href="dashboard.php">Dashboard</a></li>
                     </ul>
                 </nav>
             </div>
